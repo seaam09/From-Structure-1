@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Structure</title>
+    <link rel="stylesheet" href="From/Style.css">
+    <style>
+        label{
+            display: block;
+            margin: 10px;
+        }
+        div{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul style="text-align: center;">
+                <li><a href="Home"><strong>Home</strong></a></li>
+                <li><a href="Collection">Collection</a></li>
+                <li><a href="Price">Price</a></li>
+                <li><a href="Brand">Brand</a></li>
+                <li><a href="About">About</a></li>
+            </ul>
+            <ul>
+                <h2 style="text-align: center; color: lightslategrey; background-color: beige;">Bar Shop</h2>
+            </ul>
+        </nav>
+
+    </header>
+    <Main>
+        <section>
+            <h3>Please fill up the From</h3>
+            <form>
+                <label for="name">Your Name:
+                    <input id="name" type="text"
+                    placeholder="Your Name">
+                </label>
+                <label for="email"> Your Email:
+                    <input id="email" type="email" 
+                    placeholder="Your email address">
+                </label>
+                <label for="Phone"> Your Phone:
+                    <input id="Phone" type="text" placeholder="Phone Number">
+                </label>
+                <fieldset>
+                    <legend>Pick One Item</legend>
+                    <label for="J&B"> 
+                        <input type="radio" name="Item" id="J&B">J&B
+                    </label>
+                    <label for="Applejack">
+                        <input type="radio" name="Item" id="Applejack">Applejack
+                    </label>
+                    <label for="Wine">
+                        <input type="radio" name="Item" id="Wine">Wine
+                    </label>
+                    <label for="Whiskey">
+                        <input type="radio" name="Item" id="Whiskey">Whiskey
+                    </label>
+                    <label for="Ram">
+                        <input type="radio" name="Item" id="Ram">Ram
+                    </label>
+                    <label for="Kingfisher">
+                        <input type="radio" name="Item" id="Kingfisher">Kingfisher
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick one and more Item</legend>
+                    <label for="Cold Water">
+                        <input type="checkbox" name="Item" id="Cold Water">Cold Water
+                    </label>
+                    <label for="Ice">
+                        <input type="checkbox" name="Item" id="Ice">Ice
+                    </label>
+                    <label for="Soda">
+                        <input type="checkbox" name="Item" id="Soda">Soda
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="30" rows="6"></textarea>
+                </fieldset>
+                <div>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </div>  
+            </form>
+        </section>
+    </Main>
+    <footer>
+
+    </footer>
+</body>
+</html>
